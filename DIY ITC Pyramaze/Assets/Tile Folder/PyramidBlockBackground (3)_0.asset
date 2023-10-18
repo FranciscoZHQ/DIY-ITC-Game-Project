@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PyramidBlockBackground (1)_0
+  m_Name: PyramidBlockBackground (3)_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2113333434, guid: 0b01a192aa52b4450a7e96483bf66b68, type: 3}
+  m_Sprite: {fileID: 1954706205, guid: f7cd4da090fd54a3ca84b719e37dc3f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
