@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7cd4da090fd54a3ca84b719e37dc3f5
+guid: c31e2ac43a7e842e3a040dbc0cce5008
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_0
+      name: PyramidBlockBackground (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d1c7971c6c04492b54069658f6643c
+      internalID: 1109390183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df51f074770b44d589a68eca024c43c8
+      internalID: 516372822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3985f911235684a0389b8ee5617a35bf
+      internalID: 1837743628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d524e714a12974829a506fe7a4699716
+      internalID: 2144425564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_4
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60fab51ac8f04b55903b519dd123655
-      internalID: 1954706205
+      spriteID: a75a59495a4314a219065aa3856c17f8
+      internalID: -1392911830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_1
+      name: PyramidBlockBackground (1)_5
       rect:
         serializedVersion: 2
         x: 16
@@ -152,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eec901f2f8964ab7b54bb34441c99b9
-      internalID: 327092240
+      spriteID: e149cd82810ab4b1d9fa9d865a941f76
+      internalID: 717810170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_2
+      name: PyramidBlockBackground (1)_6
       rect:
         serializedVersion: 2
         x: 32
@@ -173,14 +257,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89e3a5c6727cd48c48edf081166153a8
-      internalID: -1738689590
+      spriteID: 028155cac009f40eaa4c12ec185fd3f8
+      internalID: -2070125409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_3
+      name: PyramidBlockBackground (1)_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e557bb868c2f4420ca79b7939d5c0fdd
+      internalID: -1611196533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_8
       rect:
         serializedVersion: 2
         x: 0
@@ -194,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c183faba7ff241709a4a60e6ccb1754
-      internalID: 384423199
+      spriteID: 4ce194f88230a4505ae04ad1e1046092
+      internalID: -364704405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_4
+      name: PyramidBlockBackground (1)_9
       rect:
         serializedVersion: 2
         x: 16
@@ -215,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc698493332fd427c8cb1fdc0029b42c
-      internalID: -1353939450
+      spriteID: 1b8e8bf5373b34b8f87f0aa12c31ee56
+      internalID: 1005339303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_5
+      name: PyramidBlockBackground (1)_10
       rect:
         serializedVersion: 2
         x: 32
@@ -236,14 +341,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f3babbb60534f2eb602efee025904b
-      internalID: -1150719785
+      spriteID: f7425cdd7abf2416db8a318464b5ee93
+      internalID: -539790237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_6
+      name: PyramidBlockBackground (1)_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b410501dd964d648d57ff30e9f80bc
+      internalID: -1792338703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PyramidBlockBackground (1)_12
       rect:
         serializedVersion: 2
         x: 0
@@ -257,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d275c64d7cc734e30999bbaa60c41060
-      internalID: -1755918616
+      spriteID: 5dd9e8c1eaa364691ac107e23c327551
+      internalID: -1164434839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PyramidBlockBackground (3)_7
+      name: PyramidBlockBackground (1)_13
       rect:
         serializedVersion: 2
         x: 16
@@ -278,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83bba0fae53db4191b31e9095119737d
-      internalID: -1638765594
+      spriteID: a1b3cd39e36464dce9e788bcafcc3610
+      internalID: -2126148480
       vertices: []
       indices: 
       edges: []
@@ -295,14 +421,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PyramidBlockBackground (3)_0: 1954706205
-      PyramidBlockBackground (3)_1: 327092240
-      PyramidBlockBackground (3)_2: -1738689590
-      PyramidBlockBackground (3)_3: 384423199
-      PyramidBlockBackground (3)_4: -1353939450
-      PyramidBlockBackground (3)_5: -1150719785
-      PyramidBlockBackground (3)_6: -1755918616
-      PyramidBlockBackground (3)_7: -1638765594
+      PyramidBlockBackground (1)_0: 1109390183
+      PyramidBlockBackground (1)_1: 516372822
+      PyramidBlockBackground (1)_10: -539790237
+      PyramidBlockBackground (1)_11: -1792338703
+      PyramidBlockBackground (1)_12: -1164434839
+      PyramidBlockBackground (1)_13: -2126148480
+      PyramidBlockBackground (1)_2: 1837743628
+      PyramidBlockBackground (1)_3: 2144425564
+      PyramidBlockBackground (1)_4: -1392911830
+      PyramidBlockBackground (1)_5: 717810170
+      PyramidBlockBackground (1)_6: -2070125409
+      PyramidBlockBackground (1)_7: -1611196533
+      PyramidBlockBackground (1)_8: -364704405
+      PyramidBlockBackground (1)_9: 1005339303
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
