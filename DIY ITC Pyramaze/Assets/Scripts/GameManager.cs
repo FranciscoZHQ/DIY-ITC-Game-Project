@@ -7,12 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public int numberOfCoins = 0;
     public int numberOfRubys = 0;
-    public int playerMaxHealth = 100;
-    public int playerCurrentHealth;
 
     public TextMeshProUGUI coinsText;
     public TextMeshProUGUI rubyText;
-    public PlayerHealth playerHealth;
 
     public Vector3 spawnPoint;
 

@@ -1755,11 +1755,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfCoins: 0
   numberOfRubys: 0
-  playerMaxHealth: 100
-  playerCurrentHealth: 0
   coinsText: {fileID: 632056172}
   rubyText: {fileID: 188944119}
-  playerHealth: {fileID: 0}
   spawnPoint: {x: 0, y: 0, z: 0}
 --- !u!1001 &748966028
 PrefabInstance:
@@ -1818,6 +1815,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36b6f48cf6a6441508b263c336e06669, type: 3}
+--- !u!1 &754704465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7994735014009052901, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
+  m_PrefabInstance: {fileID: 7994735014045655912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754704472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754704465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e137165cae04b10ab8d178921765e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCurrentHealth: {fileID: 1591484302}
+  damage: 10
 --- !u!4 &766177791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3479843345816750170, guid: 36b6f48cf6a6441508b263c336e06669, type: 3}
@@ -6884,7 +6900,6 @@ GameObject:
   - component: {fileID: 1591484302}
   - component: {fileID: 1591484303}
   - component: {fileID: 1591484304}
-  - component: {fileID: 1591484305}
   m_Layer: 0
   m_Name: PlayerPlaceHolder
   m_TagString: Player
@@ -7032,8 +7047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02eb408b14f0047a3ae71179f4fbb114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMaxHealth: 100
   playerCurrentHealth: 0
+  playerMaxHealth: 100
   healthBar: {fileID: 519601465}
 --- !u!114 &1591484303
 MonoBehaviour:
@@ -7057,18 +7072,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f7f006bebd34009a9b160e6466538a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1591484305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591484296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08fb831362e784805a205324ed85409c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1654964364
@@ -16810,6 +16813,10 @@ PrefabInstance:
       value: SlimeEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 7211840240052699276, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
+      propertyPath: m_Radius
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7211840240052699276, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -16916,6 +16923,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7994735014009052922, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994735014009052924, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994735014009052924, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

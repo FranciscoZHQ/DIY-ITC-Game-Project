@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int playerMaxHealth = 100;
     public int playerCurrentHealth;
+    public int playerMaxHealth = 100;
 
     public HealthBar healthBar;
 
@@ -13,22 +13,5 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         playerCurrentHealth = playerMaxHealth;
-        healthBar.SetMaxHealth(playerMaxHealth);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(20);
-        }
-    }
-
-    void TakeDamage(int damage)
-    {
-        playerCurrentHealth -= damage;
-
-        healthBar.SetHealth(playerCurrentHealth);
     }
 }
