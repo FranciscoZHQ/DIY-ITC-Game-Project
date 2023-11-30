@@ -27,10 +27,12 @@ public class SkeletonMerch : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gameObject.SetActive(true);
-            
+
             //gameObject2.SetActive(false);
 
-            collision.gameObject.transform.Translate(new Vector3(50, 0, 0));
+            //collision.gameObject.transform.Translate(new Vector3(50, 0, 0));
+
+            collision.gameObject.transform.position = new Vector3(10000, 10000, 0);
 
             collision.gameObject.GetComponent<TopDownPlayer>().playerMove = false;
         }
