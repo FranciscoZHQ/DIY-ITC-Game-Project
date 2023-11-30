@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8756527621285924131}
   - component: {fileID: 8756527621285924130}
   - component: {fileID: 8756527621285924133}
+  - component: {fileID: 2817739178988192507}
+  - component: {fileID: 925510520}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Untagged
@@ -106,3 +108,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2817739178988192507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756527621285924132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f7f006bebd34009a9b160e6466538a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &925510520
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756527621285924132}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.37870026, y: 0.33759308}
+      - {x: -0.5, y: 0.3125}
+      - {x: -0.5, y: -0.006591797}
+      - {x: -0.10280037, y: -0.4407959}
+      - {x: 0.0916996, y: -0.4407959}
+      - {x: 0.50370026, y: 0.004508972}
+      - {x: 0.5, y: 0.3125}
+      - {x: 0.375, y: 0.34129333}

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PyramidLevelOne.unity
     guid: 9848685d356174419b72bc00391ce6b1
+  - enabled: 1
+    path: Assets/Scenes/PyramidLevelTwo.unity
+    guid: 0fae44e564a854397827477f4ecc16f6
   m_configObjects: {}
