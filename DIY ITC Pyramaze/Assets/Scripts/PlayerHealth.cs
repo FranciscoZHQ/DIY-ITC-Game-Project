@@ -9,9 +9,18 @@ public class PlayerHealth : MonoBehaviour
 
     public HealthBar healthBar;
 
+    private bool isDead;
+
     // Start is called before the first frame update
     void Start()
     {
         playerCurrentHealth = playerMaxHealth;
+        
+    }
+
+    void Update()
+    {
+
+       
     }
 }
