@@ -14,4 +14,24 @@ public class PlayerHealth : MonoBehaviour
     {
         playerCurrentHealth = playerMaxHealth;
     }
+
+    void Update()
+    {
+        if (Input.GetKey("h"))
+        {
+            heal();
+        }
+    }
+
+    public void heal()
+    {  
+        if (playerCurrentHealth >= 80)
+        {
+            playerCurrentHealth = playerMaxHealth;
+        }
+        else
+        {
+            playerCurrentHealth += 20;
+        }
+    }
 }

@@ -27,6 +27,14 @@ public class GameManager : MonoBehaviour
         coinsText.text = "Coins: " + numberOfCoins;
         rubyText.text = "Rubys: " + numberOfRubys;
         potionText.text = "Potions: " + numberOfPotions;
+
+        if (Input.GetKey("h"))
+        {
+            if (numberOfPotions > 0)
+            {
+                numberOfPotions--;
+            }
+        }
     }
 
     public void buyPotion()
