@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PyramidLevelTwo.unity
     guid: 0fae44e564a854397827477f4ecc16f6
   - enabled: 1
-    path: Assets/Scenes/BossBattle.unity
+    path: Assets/Scenes/PyramidLevelThree.unity
     guid: 3a87b5ee67fd65d4a9d512419d445880
   m_configObjects: {}
