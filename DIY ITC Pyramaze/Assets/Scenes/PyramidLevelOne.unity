@@ -19452,6 +19452,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7211840240052699278, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
+      propertyPath: detailedGizmos
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7211840240052699279, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: m_RootOrder
       value: 8
