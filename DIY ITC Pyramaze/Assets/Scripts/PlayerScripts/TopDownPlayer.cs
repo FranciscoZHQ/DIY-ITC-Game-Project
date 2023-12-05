@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TopDownPlayer : MonoBehaviour
 {
-    public float moveSpeed = 10.0f;
+    public float moveSpeed = 8.0f;
 
     public Boolean playerMove = true;
 
