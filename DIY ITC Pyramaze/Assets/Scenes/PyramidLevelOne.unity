@@ -8716,15 +8716,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.03584
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7952
+      value: -3.8
       objectReference: {fileID: 0}
     - target: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.1488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8757,6 +8757,10 @@ PrefabInstance:
     - target: {fileID: 1442956616456445395, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_Name
       value: Protag-Kun_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1442956616456445406, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1442956617051859507, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -19278,11 +19282,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.42
+      value: -5.17
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.42
+      value: 7.41
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.z
