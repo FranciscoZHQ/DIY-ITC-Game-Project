@@ -53,6 +53,7 @@ public class TopDownPlayer : MonoBehaviour
             {
                 animator.SetBool("IsWalkingForward", false);
             }
+
             if (horizontalInput > 0.1)
             {
                 animator.SetBool("IsWalkingRight", true);
