@@ -2498,6 +2498,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1740715790}
     m_Modifications:
+    - target: {fileID: 1987616719244036531, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1740715791}
+    - target: {fileID: 1987616719244036531, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 2382641682299024219, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
       propertyPath: m_Name
       value: Game Over Screen
@@ -2586,6 +2594,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7003860351097768910, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1740715791}
+    - target: {fileID: 7003860351097768910, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Restart
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2596,6 +2612,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5529012238433629706, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
   m_PrefabInstance: {fileID: 909704330}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &909704332 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 803331087234477163, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
+  m_PrefabInstance: {fileID: 909704330}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985b7f90256a7462e9359a77fdc37191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &925510518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9280,7 +9307,7 @@ MonoBehaviour:
   rubyText: {fileID: 1912194459}
   potionText: {fileID: 13313917}
   playerHealth: {fileID: 0}
-  gameOverScreen: {fileID: 0}
+  gameOverScreen: {fileID: 909704332}
   movement: {fileID: 0}
   spawnPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &1740715792
