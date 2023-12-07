@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,12 +14,29 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI rubyText;
     public TextMeshProUGUI potionText;
 
+    // Other class refs.
+
+    public PlayerHealth playerHealth;
+    public GameOverScreen gameOverScreen;
+    public TopDownPlayer movement;
+
+    // End class refs.
+
     public Vector3 spawnPoint;
+
+    private bool isDead;
 
     // Start is called before the first frame update
     void Start()
     { 
         spawnPoint = new Vector3(0, 0, 0);
+
+        playerHealth = GameObject.Find("Protag-Kun_0").GetComponent<PlayerHealth>();
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        movement = GameObject.Find("Protag-Kun_0").GetComponent<TopDownPlayer>();
     }
 
     // Update is called once per frame
@@ -35,6 +53,36 @@ public class GameManager : MonoBehaviour
                 numberOfPotions--;
             }
         }
+
+        if (playerHealth.playerCurrentHealth <= 0 && !isDead)
+        {
+            isDead = true;
+            movement.playerMove = false;
+            // GameObject.FindGameObjectWithTag("MainCamera").SetActive(true);
+            Debug.Log("Dead");
+            gameOverScreen.Setup();
+        }
+
+        if (gameOverScreen.gameObject.activeInHierarchy)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("PyramidLevelOne");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu Screen");
     }
 
     public void buyPotion()
