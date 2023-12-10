@@ -50826,7 +50826,7 @@ PrefabInstance:
     - target: {fileID: 681219574030765383, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 651399076}
+      objectReference: {fileID: 1898773888}
     - target: {fileID: 4531743567581056651, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_Name
       value: MiniSlimePic_0
@@ -58589,11 +58589,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6883793899547480419, guid: 6f18ff4bf1f9746309d4746371672f6c, type: 3}
   m_PrefabInstance: {fileID: 651399067}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &651399076 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6883793899547480443, guid: 6f18ff4bf1f9746309d4746371672f6c, type: 3}
-  m_PrefabInstance: {fileID: 651399067}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &673310180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61853,6 +61848,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+--- !u!4 &1898773888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+  m_PrefabInstance: {fileID: 1898773887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1900581479
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9000,11 +9000,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480069558}
   m_CullTransparentMesh: 1
---- !u!4 &1542573109 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6883793899547480443, guid: 6f18ff4bf1f9746309d4746371672f6c, type: 3}
-  m_PrefabInstance: {fileID: 1886056938}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1560711170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9249,6 +9244,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+--- !u!4 &1706901108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1442956616456445392, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+  m_PrefabInstance: {fileID: 1706901107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1724483697 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3479843345816750170, guid: 36b6f48cf6a6441508b263c336e06669, type: 3}
@@ -19670,14 +19670,14 @@ PrefabInstance:
     - target: {fileID: 7211840240052699272, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1542573109}
+      objectReference: {fileID: 1706901108}
     - target: {fileID: 7211840240052699275, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: m_Name
       value: SlimeEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 7211840240052699275, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7211840240052699275, guid: 16a97a1a1f140427bbefd93db98fff61, type: 3}
       propertyPath: m_TagString
@@ -19766,7 +19766,7 @@ PrefabInstance:
     - target: {fileID: 7994735014009052903, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1542573109}
+      objectReference: {fileID: 1706901108}
     - target: {fileID: 7994735014009052922, guid: 4035a7bd8e02245619028be96388a8a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.54
@@ -19829,11 +19829,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.42
+      value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.42
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 46876263356431144, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19870,14 +19870,14 @@ PrefabInstance:
     - target: {fileID: 681219574030765383, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1542573109}
+      objectReference: {fileID: 1706901108}
     - target: {fileID: 4531743567581056651, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_Name
       value: MiniSlimePic_0
       objectReference: {fileID: 0}
     - target: {fileID: 4531743567581056651, guid: 0bf03190db99ba84888caea99488afff, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
