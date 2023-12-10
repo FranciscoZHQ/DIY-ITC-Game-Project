@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 55402289}
   - component: {fileID: 55402288}
   - component: {fileID: 55402291}
+  - component: {fileID: 55402292}
   m_Layer: 0
   m_Name: FinishedMummy_0
   m_TagString: Untagged
@@ -245,6 +246,19 @@ MonoBehaviour:
   gameObject: {fileID: 995866034}
   gameObject2: {fileID: 2786369155592338597, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
   player: {fileID: 620476016}
+--- !u!114 &55402292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55402287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba2b2dfe4ec847e2a8a0efb19d8d6c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossCurrentHealth: 0
 --- !u!1001 &95160984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61479,6 +61493,9 @@ MonoBehaviour:
   coinsText: {fileID: 1182455645}
   rubyText: {fileID: 737866898}
   potionText: {fileID: 1711435971}
+  playerHealth: {fileID: 0}
+  gameOverScreen: {fileID: 0}
+  movement: {fileID: 0}
   spawnPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &1858545038
 MonoBehaviour:
