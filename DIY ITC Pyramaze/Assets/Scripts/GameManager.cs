@@ -33,8 +33,8 @@ public class GameManager : MonoBehaviour
 
         playerHealth = GameObject.Find("Protag-Kun_0").GetComponent<PlayerHealth>();
 
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         movement = GameObject.Find("Protag-Kun_0").GetComponent<TopDownPlayer>();
     }
@@ -65,13 +65,13 @@ public class GameManager : MonoBehaviour
 
         if (gameOverScreen.gameObject.activeInHierarchy)
         {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            //Cursor.visible = true;
+            //Cursor.lockState = CursorLockMode.None;
         }
         else
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
