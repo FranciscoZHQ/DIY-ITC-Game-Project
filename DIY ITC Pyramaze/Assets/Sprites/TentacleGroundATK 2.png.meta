@@ -1,0 +1,1139 @@
+fileFormatVersion: 2
+guid: e7ca20bc69aae9645bc689e357d7d7c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TentacleGroundATK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b6b0d2ffedf064cb92684ff69c285c
+      internalID: -415475564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502ed52810a7fc43a2b14d32c9de903
+      internalID: 2107868429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5163c9deb6364fb38cc988b85e776
+      internalID: 771036190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f91037bc8c9b6468200f08e530acf4
+      internalID: -56555247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37379980568628848913259112478b7e
+      internalID: -1257120053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71acda4d9065be54c9e6be4cdfc81891
+      internalID: 1589035411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6109.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a444e26bfcf44c8eb4abeb3b04637
+      internalID: 1457842691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cd4cc5e867bcf4697b5c746cb73006
+      internalID: 1256053338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0ea95fce3226e4997d26b0c9583115
+      internalID: -486842138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3f2929029c03a4c9824e6e44305142
+      internalID: -1174571177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_10
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec57ba12569194ea099924be6383c9
+      internalID: 1230959243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_11
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04178811117b8a4b8585ac56e0e812b
+      internalID: -1281238870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_12
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06632306e0ad6a747a05b131d41d77ea
+      internalID: 1819137584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_13
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5091.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cadda283e4a0a47857974fb7748eef
+      internalID: 2012724730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154d148a56a5bc43afcbdc5967f3edb
+      internalID: -864150584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e84fceb8e0a2408f5917a3adebb65
+      internalID: -1123534820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02960ad63cd7ff34e8d5934835cefb88
+      internalID: 116269734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_17
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0bd27b8d8ded641af5601f5a0680dc
+      internalID: -1371162913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_18
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e151ce199c3ef94c91acb62be242582
+      internalID: -1041395072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_19
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f587064d3fb34daae6907b0677669
+      internalID: 1997644402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_20
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4073.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfcc5297cbc1fd4e81897ff489639f9
+      internalID: -1664501186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5db561365b43947a2ab25994626d5c
+      internalID: -18228205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e914d2d37a1c3d44bb6b3704f9ebc849
+      internalID: -731382143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_23
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf35ea57742783b41a4849f36e609ad2
+      internalID: -1584151549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670eab597591bef4ab8bfc92bfa5c3d8
+      internalID: 394827416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_25
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f840eb6df8087944a3e1649733862e2
+      internalID: -338363867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_26
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f394e1f18a9db4429fe6830d2069475
+      internalID: 1167274688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_27
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3055.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc63abda580f22f4db8a2971d0683e98
+      internalID: 1167593173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1c0b9b30e717e44b4abaecc45bbd8a
+      internalID: 875269286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ec514600b34414ab43ef572f842339
+      internalID: -1444460121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c3218a09e2e9c43a83ea4c2a5a6fe3
+      internalID: 1461762966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_31
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f405fc92e0230449a92e14b20999ff
+      internalID: 1588048778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6861ae2efc22a1f458ce6912a01a05cf
+      internalID: 1398044002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_33
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a066a4164d1684592b7aa32cfde5e7
+      internalID: -1520815221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_34
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2037.7144
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321e47035af1b0a459074df5b8d2051e
+      internalID: -824317656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb5f03716cba584a934bfcee6aadb68
+      internalID: -1329591327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe6389fe3968934086b6ef55b97d820
+      internalID: -821845668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a413c6bdd7524aa1be7aeaa82a385
+      internalID: -1834636509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c8307a30657e54bbfe96d62a612eb0
+      internalID: 1713158319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ff3f8549f6c345a4434cdaf1770cb
+      internalID: -1143102468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f62fbfc0a5b454985787578718e7d9
+      internalID: -1783529558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_41
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1019.7143
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ed482c01c4ca4183075cfb752e61a
+      internalID: 741384284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.7142944
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f479bd9c6ab07a44b89d74887743825
+      internalID: 129411747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1.7142944
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e19a3a5fa5eb245b1d6d8a423aa2c5
+      internalID: -1728402378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1.7142944
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cb3c78c9c6304f937ac28aa658ab7
+      internalID: 459746382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleGroundATK_45
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1.7142944
+        width: 1024
+        height: 1018.2857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baeb60561f214047a5f1b4e98bfc8b1
+      internalID: 586625413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TentacleGroundATK_0: -415475564
+      TentacleGroundATK_1: 2107868429
+      TentacleGroundATK_10: 1230959243
+      TentacleGroundATK_11: -1281238870
+      TentacleGroundATK_12: 1819137584
+      TentacleGroundATK_13: 2012724730
+      TentacleGroundATK_14: -864150584
+      TentacleGroundATK_15: -1123534820
+      TentacleGroundATK_16: 116269734
+      TentacleGroundATK_17: -1371162913
+      TentacleGroundATK_18: -1041395072
+      TentacleGroundATK_19: 1997644402
+      TentacleGroundATK_2: 771036190
+      TentacleGroundATK_20: -1664501186
+      TentacleGroundATK_21: -18228205
+      TentacleGroundATK_22: -731382143
+      TentacleGroundATK_23: -1584151549
+      TentacleGroundATK_24: 394827416
+      TentacleGroundATK_25: -338363867
+      TentacleGroundATK_26: 1167274688
+      TentacleGroundATK_27: 1167593173
+      TentacleGroundATK_28: 875269286
+      TentacleGroundATK_29: -1444460121
+      TentacleGroundATK_3: -56555247
+      TentacleGroundATK_30: 1461762966
+      TentacleGroundATK_31: 1588048778
+      TentacleGroundATK_32: 1398044002
+      TentacleGroundATK_33: -1520815221
+      TentacleGroundATK_34: -824317656
+      TentacleGroundATK_35: -1329591327
+      TentacleGroundATK_36: -821845668
+      TentacleGroundATK_37: -1834636509
+      TentacleGroundATK_38: 1713158319
+      TentacleGroundATK_39: -1143102468
+      TentacleGroundATK_4: -1257120053
+      TentacleGroundATK_40: -1783529558
+      TentacleGroundATK_41: 741384284
+      TentacleGroundATK_42: 129411747
+      TentacleGroundATK_43: -1728402378
+      TentacleGroundATK_44: 459746382
+      TentacleGroundATK_45: 586625413
+      TentacleGroundATK_5: 1589035411
+      TentacleGroundATK_6: 1457842691
+      TentacleGroundATK_7: 1256053338
+      TentacleGroundATK_8: -486842138
+      TentacleGroundATK_9: -1174571177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

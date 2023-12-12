@@ -50,6 +50,8 @@ public class SpikeDamageAnimationReference : MonoBehaviour
 
             if (other.gameObject.tag == "Slime")
             {
+                other.gameObject.GetComponent<MiniSlime>().makeSlimeDup();
+                other.gameObject.GetComponent<MiniSlime>().makeSlimeDup();
                 Destroy(other.gameObject);
             }
 

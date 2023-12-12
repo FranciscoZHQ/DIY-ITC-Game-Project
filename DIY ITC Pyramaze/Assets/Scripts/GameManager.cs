@@ -32,11 +32,13 @@ public class GameManager : MonoBehaviour
         spawnPoint = new Vector3(0, 0, 0);
 
         playerHealth = GameObject.Find("Protag-Kun_0").GetComponent<PlayerHealth>();
+        healthbarnacle = GameObject.Find("Health Bar").GetComponent<HealthBar>();
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
         movement = GameObject.Find("Protag-Kun_0").GetComponent<TopDownPlayer>();
+
     }
 
     // Update is called once per frame
@@ -45,14 +47,6 @@ public class GameManager : MonoBehaviour
         coinsText.text = "Coins: " + numberOfCoins;
         rubyText.text = "Rubys: " + numberOfRubys;
         potionText.text = "Potions: " + numberOfPotions;
-
-        if (Input.GetKey("h"))
-        {
-            if (numberOfPotions > 0)
-            {
-                numberOfPotions--;
-            }
-        }
 
         if (playerHealth.playerCurrentHealth <= 0 && !isDead)
         {
@@ -73,6 +67,8 @@ public class GameManager : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
+
+        heals();
     }
 
     public void Restart()
@@ -113,5 +109,41 @@ public class GameManager : MonoBehaviour
             //// Insert code to change weapon to sword
             //}
         }
+    }
+    public bool canDrink = true;
+    HealthBar healthbarnacle;
+
+    public void heals()
+    {
+        if (Input.GetKey("h"))
+        {
+            if (numberOfPotions >= 1 && canDrink == true)
+            {
+                canDrink = false;
+                numberOfPotions--;
+
+                //playerHealth.playerCurrentHealth = playerHealth.playerCurrentHealth + 20;
+                //healthbarnacle.slider.value = playerHealth.playerCurrentHealth;
+
+                if (playerHealth.playerCurrentHealth >= 80)
+                {
+                    playerHealth.playerCurrentHealth = playerHealth.playerMaxHealth;
+                    healthbarnacle.slider.value = playerHealth.playerCurrentHealth;
+                }
+                else
+                {
+                    playerHealth.playerCurrentHealth += 20;
+                    healthbarnacle.slider.value = playerHealth.playerCurrentHealth;
+                }
+
+                StartCoroutine(timerDrink());
+            }
+        }
+    }
+
+    IEnumerator timerDrink()
+    {
+        yield return new WaitForSeconds(1f);
+        canDrink = true;
     }
 }

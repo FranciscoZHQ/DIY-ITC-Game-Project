@@ -13,25 +13,26 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         playerCurrentHealth = playerMaxHealth;
+        healthbarnacle = GameObject.Find("Health Bar").GetComponent<HealthBar>();
     }
 
     void Update()
     {
-        if (Input.GetKey("h"))
-        {
-            heal();
-        }
+        
     }
 
+    HealthBar healthbarnacle;
     public void heal()
-    {  
+    {
         if (playerCurrentHealth >= 80)
         {
             playerCurrentHealth = playerMaxHealth;
+            healthbarnacle.slider.value = playerCurrentHealth;
         }
         else
         {
             playerCurrentHealth += 20;
+            healthbarnacle.slider.value = playerCurrentHealth;
         }
     }
 }
