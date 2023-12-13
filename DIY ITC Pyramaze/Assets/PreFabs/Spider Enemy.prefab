@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 7994735014009052924}
   - component: {fileID: 1373142143898824164}
   - component: {fileID: 6851951531743776751}
+  - component: {fileID: 4598824799023838472}
   m_Layer: 0
   m_Name: Spider Enemy
   m_TagString: Spider
@@ -240,7 +241,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -315,6 +316,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2911ab2c8bed94c4cab781886ca06c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &4598824799023838472
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994735014009052901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &7994735014171569633
 GameObject:
   m_ObjectHideFlags: 0

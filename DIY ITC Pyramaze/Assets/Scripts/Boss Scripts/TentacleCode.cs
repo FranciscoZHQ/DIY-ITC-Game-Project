@@ -31,7 +31,7 @@ public class TentacleCode : MonoBehaviour
 
     IEnumerator waitKill()
     {
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(2.8f);
         Destroy(this.gameObject);
     }
 

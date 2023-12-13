@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4341909314756436432}
   - component: {fileID: 6716985834518079315}
   - component: {fileID: 1149806150240464044}
+  - component: {fileID: 5530421043863496163}
+  - component: {fileID: 8938094373858862991}
   m_Layer: 0
   m_Name: TentacleGroundATK_0
   m_TagString: Untagged
@@ -165,6 +167,89 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 10.24, y: 10.182857}
+  m_Offset: {x: 0, y: -0.16441995}
+  m_Size: {x: 6.728574, y: 9.91116}
   m_Direction: 0
+--- !u!50 &5530421043863496163
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2786369155592338597}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!60 &8938094373858862991
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2786369155592338597}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.182857}
+    newSize: {x: 10.24, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39393255, y: 4.8458385}
+      - {x: -1.4678372, y: 4.8414574}
+      - {x: -2.39389, y: 3.82715}
+      - {x: -2.402414, y: 0.22331944}
+      - {x: -3.2624283, y: -2.586944}
+      - {x: -3.257425, y: -4.836206}
+      - {x: 2.6111505, y: -4.8660536}
+      - {x: 2.5982878, y: -2.542765}
+      - {x: 1.53892, y: 0.07450394}
+      - {x: 1.5396949, y: 0.053928018}
+      - {x: 1.5603459, y: 3.6275597}
+  m_UseDelaunayMesh: 0
