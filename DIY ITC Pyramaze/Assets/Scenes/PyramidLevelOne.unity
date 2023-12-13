@@ -2502,17 +2502,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1740715791}
-    - target: {fileID: 1987616719244036531, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MainMenu
-      objectReference: {fileID: 0}
     - target: {fileID: 2382641682299024219, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
       propertyPath: m_Name
       value: Game Over Screen
-      objectReference: {fileID: 0}
-    - target: {fileID: 2382641682299024219, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5529012238433629706, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
       propertyPath: m_Pivot.x
@@ -2598,10 +2590,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1740715791}
-    - target: {fileID: 7003860351097768910, guid: 06d1182bdcea04a128d480217a1daf2c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Restart
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
