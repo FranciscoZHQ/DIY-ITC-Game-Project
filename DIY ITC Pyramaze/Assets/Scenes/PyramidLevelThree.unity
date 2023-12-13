@@ -62194,6 +62194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Protag-Kun_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1442956616456445406, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 51740c1987457465baa26805289c470a, type: 3}
     - target: {fileID: 1442956617051859507, guid: 0f735ec28f98f5f4189b0ecb1c9e5417, type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0.101960786

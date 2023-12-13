@@ -1423,11 +1423,13 @@ MonoBehaviour:
     H
     = heal / use potion
 
+    Space = Attack
 
-    Objection: Try to navigate through levels by touching
-    all the walls and trying to find your way through the maze. Most walls are normal,
-    but some walls take you forwards or backwards a level. Avoid traps, as traps
-    will do damage to the player if touched'
+
+    Objection: Try to navigate through
+    levels by touching all the walls and trying to find your way through the maze.
+    Most walls are normal, but some walls take you forwards or backwards a level.
+    Avoid traps, as traps will do damage to the player if touched'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
