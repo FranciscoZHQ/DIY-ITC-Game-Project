@@ -77,6 +77,10 @@ public class TrapFloorDamageReference : MonoBehaviour
             {
                 Destroy(other.gameObject);
             }
+            if (other.gameObject.tag == "MiniSlime")
+            {
+                Destroy(other.gameObject);
+            }
         }
         else
         {

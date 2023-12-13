@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Slime
   - Spider
+  - MiniSlime
   layers:
   - Default
   - TransparentFX

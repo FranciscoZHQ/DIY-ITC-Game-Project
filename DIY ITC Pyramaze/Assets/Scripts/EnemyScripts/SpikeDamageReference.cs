@@ -61,6 +61,10 @@ public class SpikeDamageAnimationReference : MonoBehaviour
             {
                 Destroy(other.gameObject);
             }
+            if (other.gameObject.tag == "MiniSlime")
+            {
+                return;
+            }
         }
     }
 

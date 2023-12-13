@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 8091064400000343104}
   m_Layer: 0
   m_Name: MiniSlimePic_0
-  m_TagString: Untagged
+  m_TagString: MiniSlime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
