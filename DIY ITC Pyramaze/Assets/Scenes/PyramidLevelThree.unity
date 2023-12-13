@@ -60634,46 +60634,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5388299221900126896, guid: fd1f558b3934a47b78fdd8bffd5952c1, type: 3}
   m_PrefabInstance: {fileID: 1441169690}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1447878925 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2786369155592338597, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
-  m_PrefabInstance: {fileID: 2522213163337787687}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1447878936
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447878925}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 10.24, y: 10.182857}
-  m_Direction: 0
 --- !u!1001 &1457736540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62829,15 +62789,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1248869912658962956, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
-    - {fileID: 4916326693840965886, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2786369155592338597, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1447878936}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d3af752b9cd0074fa3c9c78043cd68e, type: 3}
 --- !u!1001 &5388299221762967623
 PrefabInstance:
